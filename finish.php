@@ -24,7 +24,7 @@ b="Excuse me, but I do not found any code for VISIT using PHP"
 </script>
 
 <h1>IsOnline by RamondettiDavide</h1>
-<h2>TEST FINISHED!</h2>
+<h2>TEST FINISHED!</h2> 
 <br>
 Results for <b><?php print $protocol; ?>://<?php print $url; ?></b>: <br><br>
 Ping Test: <font color="orange"><b>TEST DISABLED (<a href="#!showHelp=291853" onClick="alert(a)">i</a>)</font></b><br>
