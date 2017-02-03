@@ -4,9 +4,6 @@ Include("check.php");
 $ping = $_GET['ping'];
 $url = $_GET['url'];
 
-/* EX: http: www.thecave.info php-ping-script-to-check-remote-server-or-website */
-/* NEW: http: stackoverflow.com questions 9841635 how-can-i-ping-a-server-port-with-php */
-
 $host = $url; 
 $port = 80; 
 
