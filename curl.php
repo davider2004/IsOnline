@@ -1,5 +1,5 @@
 <?php
-Include("check.php");
+Include("check.php"); 
 
 $url = $_GET['url'];
 $ping = $_GET['ping'];
