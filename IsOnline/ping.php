@@ -3,8 +3,6 @@ include("check.php");
 
 $url = $_GET['url'];
 
-/* http: www.thecave.info php-ping-script-to-check-remote-server-or-website */
-
 function ping($host)
 {
         exec(sprintf('ping -c 1 -W 5 %s', escapeshellarg($host)), $res, $rval);
