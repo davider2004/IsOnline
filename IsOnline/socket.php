@@ -9,8 +9,6 @@ $visit = $_GET['visit'];
 $protocol = $_GET['protocol'];
 
 $link = $protocol."://".$url;
-/* EX: https: css-tricks.com snippets php check-if-website-is-available */
-/* NEW: http: stackoverflow.com questions 9841635 how-can-i-ping-a-server-port-with-php */
 
 $host = $url; 
 $port = 80; 
