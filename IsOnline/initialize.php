@@ -63,6 +63,7 @@ Header("Refresh: 6.5; URL=http://isonline.ramondettidavide.com/start.php?url=".$
     <p></p>
     <p><b>Excuse me for my English, but i'm Italian. If i've typed somes errors contact me at davide@ramondettidavide.com</b></p>
     <p></p>
+  <p><?php watermark(); ?></p>
     <p><i>&copy; 2017 <a href="https://ramondettidavide.com/" target="_blank">RamondettiDavide</a>, all rights riserved</i></p>
 </div>
 </body>
