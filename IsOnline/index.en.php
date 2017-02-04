@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<head>
+<head> 
     <title>IsOnline ? The best website online status checker / RamondettiDavide</title>
 
     <meta charset="utf-8" />
