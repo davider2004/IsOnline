@@ -24,3 +24,7 @@ If ($_GET['protocol']) {
 }
 
 $serverip = "isonline.ramondettidavide.com"; # HERE MUST GO THE SERVER IP
+
+function watermark(){
+  include("watermark.php");
+}
