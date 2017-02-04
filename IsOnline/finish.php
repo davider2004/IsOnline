@@ -65,4 +65,4 @@ Visit Test: <font color="orange"><b>TEST DISABLED (<a href="#!showHelp=29184" on
 <br><br>
 
 Thanks for using this software and bye! (Excuse me for my English, but English isn't my native language)<br>
-<?php watermark(); ?>
+<?php watermark(); ?> 
