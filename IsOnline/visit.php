@@ -9,23 +9,14 @@ $protocol = $_GET['protocol'];
 
 $link = $protocol.".//".$url;
 
-       // inizializzo cURL
 $ch = curl_init();
-
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-// imposto la URL della risorsa remota da scaricare
 curl_setopt($ch, CURLOPT_URL, $link);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-
-// imposto che non vengano scaricati gli header
 curl_setopt($ch, CURLOPT_HEADER, 0);
-
-// eseguo la chiamata
 $output = curl_exec($ch);
-
-// chiudo cURL
 curl_close($ch);
 
 if ($output) {
