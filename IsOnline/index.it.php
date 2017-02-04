@@ -36,7 +36,7 @@
             padding: 1em;
         }
     }
-    </style>    
+    </style>     
 </head>
 
 <body>
