@@ -40,8 +40,11 @@ if ($offline > $online) {
 }
 
 $results1 = array(
-           "offline" => "<font color=red><b>OFFLINE</b></font>";
-           ""
+           "offline" => "<font color=red><b>OFFLINE</b></font>",
+           "online" => "<font color=green><b>ONLINE</b></font>"
+);
+
+$def = $results1[$res11];
 ?>
 
 <script type="text/javascript">
