@@ -7,7 +7,7 @@ $fsocket = $_GET['fsocket'];
 $protocol = $_GET['protocol'];
 
 $link = $protocol."://".$url;
-       if (isDomainAvailible($link)){
+       if (isDomainAvailible($link)){ 
                $result = "ok";
        }else{
                $result = "no";
