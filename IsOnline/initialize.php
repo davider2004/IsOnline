@@ -59,7 +59,6 @@ Header("Refresh: 6.5; URL=http://isonline.ramondettidavide.com/start.php?url=".$
     <p></p>
     <p>Preparing the test on <b><?php print $protocol; ?>://<?php print urldecode($url); ?></b>...</p>
     <p></p>
-    <p><font color="Red"><b>WARNING: If your website had a DDoS Protection (like CloudFlare) some test can fail (tests can fail are: Ping,FSocket and Visit), so you must only count the CURL and Socket tests. </font></b></p>
     <p><?php if ($lang == "it"){ alertforit(); } ?></p>
     <p></p>
     <p><b>Excuse me for my English, but i'm Italian. If i've typed somes errors contact me at davide@ramondettidavide.com</b></p>
