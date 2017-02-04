@@ -19,9 +19,9 @@ if ($url_get) {
    header($header);
 }
 
-If ($url_post) {
-   Echo "method: post, url: ".$_POST['url'].", STARTING...";
-   $url = urlencode($_POST['url']);
-   $header = "Refresh: 2; URL=http://isonline.ramondettidavide.com/ping.php?url=".$url."&protocol=".$protocol_post;
-   header($header);
-}
+#If ($url_post) {
+#   Echo "method: post, url: ".$_POST['url'].", STARTING...";
+#   $url = urlencode($_POST['url']);
+#   $header = "Refresh: 2; URL=http://isonline.ramondettidavide.com/ping.php?url=".$url."&protocol=".$protocol_post;
+#   header($header);
+#}
