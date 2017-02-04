@@ -60,7 +60,7 @@ b="Excuse me, but I do not found any code for VISIT using PHP"
 Results for <b><?php print $protocol; ?>://<?php print $url; ?></b>: <br><br>
 FSocket Test: <?php print $result[$fsocket]; ?><br>
 CURL Test: <?php print $result[$curl]; ?><br>
-Socket Test: <?php print $result[$socket]; ?>
+Socket Test: <?php print $result[$socket]; ?><br>
 Ping Test: <font color="orange"><b>TEST DISABLED (<a href="#!showHelp=291853" onClick="alert(a)">i</a>)</font></b><br>
 Visit Test: <font color="orange"><b>TEST DISABLED (<a href="#!showHelp=29184" onClick="alert(b)">i</a>)</font></b><br><br>
 
