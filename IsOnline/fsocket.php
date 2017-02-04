@@ -5,7 +5,7 @@ $ping = $_GET['ping'];
 $url = $_GET['url'];
 
 $host = $url; 
-$port = 80; 
+$port = 80;  
 
 $waitTimeoutInSeconds = 1; 
 if($fp = fsockopen($host,$port,$errCode,$errStr,$waitTimeoutInSeconds)){   
