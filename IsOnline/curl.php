@@ -40,7 +40,7 @@ $link = $protocol."://".$url;
        }
 
 $to = "http://".$serverip."/visit.php?url=".urlencode($url)."&ping=".$ping."&fsocket=".$fsocket."&curl=".$result."&protocol=".$protocol;
-$refresh = rand(1,10);
+$refresh = rand(0,1);
 $header = "Refresh: ".$refresh."; URL=".$to;
 
 Header($header);
