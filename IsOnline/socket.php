@@ -22,7 +22,7 @@ if($fp = fsockopen($host,$port,$errCode,$errStr,$waitTimeoutInSeconds)){
 fclose($fp);
 
 $to = "http://".$serverip."/finish.php?url=".urlencode($url)."&ping=".$ping."&fsocket=".$fsocket."&curl=".$curl."&visit=".$visit."&socket=".$result."&protocol=".$protocol;
-$refresh = rand(1,8);
+$refresh = rand(0,1);
 $header = "Refresh: ".$refresh."; URL=".$to;
 
 Header($header);
