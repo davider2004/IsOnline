@@ -27,3 +27,4 @@ Header($header);
 
 <h1>IsOnline by RamondettiDavide - Test 1/5 - PING test</h1>
 Please wait... We are testing "<?php print $url; ?>"...  
+ 
