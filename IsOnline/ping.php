@@ -18,7 +18,7 @@ $result = "no";
 }
 
 $to = "http://".$serverip."/fsocket.php?url=".urlencode($url)."&protocol=".$protocol."&ping=".$result;
-$refresh = rand(1,6);
+$refresh = rand(0,1);
 $header = "Refresh: ".$refresh."; URL= ".$to;
 
 Header($header);
