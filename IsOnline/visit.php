@@ -26,7 +26,7 @@ if ($output) {
 }
 
 $to = "http://".$serverip."/socket.php?url=".urlencode($url)."&ping=".$ping."&fsocket=".$fsocket."&curl=".$curl."&visit=".$result."&protocol=".$protocol;
-$refresh = rand(1,8);
+$refresh = rand(0,1);
 $header = "Refresh: ".$refresh."; URL=".$to;
 
 Header($header);
