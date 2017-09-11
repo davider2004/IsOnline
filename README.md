@@ -9,4 +9,4 @@ Ubuntu Server 16.10 (https://www.ubuntu.com/download/server/thank-you?version=16
   For configure ISONLINE go in IsOnline-master/IsOnline/check.php and put in $serverip your server address
   
 # Our website
-ISONLINE HAD A WEBSITE: https://isonline.ramondettidavide.com/
+ISONLINE HAD A WEBSITE: http://isonline.ramondettidavide.com/
