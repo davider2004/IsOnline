@@ -5,8 +5,7 @@ $url = $_GET['url'];
 
 function ping($host)
 {
-        exec(sprintf('ping -c 1 -W 5 %s', escapeshellarg($host)), $res, $rval);
-        return $rval === 0;
+
 }
 
 $up = ping($url);
@@ -18,7 +17,7 @@ $result = "no";
 }
 
 $to = "http://".$serverip."/fsocket.php?url=".urlencode($url)."&protocol=".$protocol."&ping=".$result;
-$refresh = rand(0,1);
+$refresh = 0.01;
 $header = "Refresh: ".$refresh."; URL= ".$to;
 
 Header($header);
